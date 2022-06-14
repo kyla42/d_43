@@ -47,7 +47,7 @@ h1 {
         box-shadow: none;
     }
 
-    $colors : yellow, pink, orange, white, lightblue, plum, lightgreen;
+    $colors : yellow, pink, orange, white, lightblue, mediumorchid, lightgreen;
 
     @each $c in $colors {
         &.on-#{$c} {
